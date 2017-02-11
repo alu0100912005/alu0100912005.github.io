@@ -15,7 +15,7 @@ GitBook tiene una versión escritorio la cual es muy amigable, sencilla y tiene 
 
 Si queremos utilizar GitBook medianete consola, debemos tener instalado NPM y ejecutar el siguiente comando:
 
- `$ npm install gitbook-cli -g`
+`$ npm install gitbook-cli -g`
 
 Con `gitbook-cli` nos permite utilizar varias versiones de GitBook en el mismo sitema. Este instala automaticamente la version requerida de GitBook para crear un libro.
 
@@ -37,11 +37,19 @@ O crear un website estático utilizamos:
 
 `$ gitbook build`
 
+### Instalar versiones previas
 
+`gitbook-cli` hace fácil descargar e instalar otras versiones de GitBook para testear nuestro libro:
 
+`$ gitbook fetch beta`
 
+Usamos `gitbook ls-remote` para listar versiones remotas disponibles para instalar.
 
+### Depuración
 
+Podemos usar la opción `--log=debug` y `--debug` para obtener mejores mensajes de error. Por ejemplo:
+
+`$ gitbook build ./ --log=debug --debug`
 
 
 
