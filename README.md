@@ -1,3 +1,13 @@
-# My Awesome Book
+# GitBook experience
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+Este libro fue creado por Ángel Luis Morales Hernández y Nicolangelo Famiglietti. Este libro sirve de auto-aprendizaje de GitBook y sus herramientas. 
+
+* Asignatura: Desarrollo de Sistemas Informáticos
+* Profesor: Casiano Rodríguez León
+* Curso: 2016-2017
+* Itinerario: Tecnologías de la Información \(3º\)
+* Universidad de la Laguna
+* Alumnos: Ángel Luis Morales Hernández & Nicolangelo Famiglietti
+
+
+
