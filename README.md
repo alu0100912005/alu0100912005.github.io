@@ -1,6 +1,6 @@
 # GitBook experience
 
-Este libro fue creado por Ángel Luis Morales Hernández y Nicolangelo Famiglietti. Este libro sirve de auto-aprendizaje de GitBook y sus herramientas. 
+Este libro fue creado por Ángel Luis Morales Hernández y Nicolangelo Famiglietti. El libro sirve de auto-aprendizaje de GitBook y sus herramientas.
 
 * Asignatura: Desarrollo de Sistemas Informáticos
 * Profesor: Casiano Rodríguez León
