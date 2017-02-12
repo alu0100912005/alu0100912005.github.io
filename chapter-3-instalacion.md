@@ -26,11 +26,11 @@ Vamos a [https://desktop.github.com/ ](https://desktop.github.com/)y nos descarg
 
 ![](/assets/gh.png)
 
-Y listo, si queremos cambiar algo de la configuración de instalación debemos ir a Opciones y cambiarlo:
-
 ![](/assets/gh_1.png)
 
+Y listo, si queremos cambiar algo de la configuración de instalación debemos ir a Opciones y cambiarlo:
 
+![](/assets/gh_2.png)
 
 # Pandoc
 
