@@ -4,7 +4,7 @@ GitHub Pages es un servicio de alojamiento de sitios estáticos y está diseñad
 
 ### Cómo se utiliza GH-Pages
 
-Debemos crear el repositorio en GH y el nombre debe contener la extensión final _github.io _por ejemplo:
+Debemos crear el repositorio en GH y el nombre debe contener la extensión final \_github.io \_por ejemplo:
 
 `alu0100912005.github.io`
 
@@ -12,7 +12,7 @@ Tenemos 2 formas de clonar nuestro repositorio para poder trabajar con Pages, me
 
 ### Línea de comandos
 
-`$ git clone https://github.com`_`/alu0100912005/alu0100912005`_`.github.io`
+`$ git clone https://github.com/alu0100912005/alu0100912005.github.io`
 
 Creamos nuestro `index.html` , hacemos un `commit` y luego un `push`
 
@@ -28,7 +28,35 @@ Nos descargamos la versión de escritorio de GitHub compatible con nuestra máqu
 
 ![](/assets/import.png)
 
-Una vez hacemos el `commit`, le damos al botón `sync `para que se sincronize los cambios con nuestro repositorio en la nube.
+Una vez hacemos el `commit`, le damos al botón `sync`para que se sincronize los cambios con nuestro repositorio en la nube.
+
+
+
+
+
+### Módulo GH - pages para autimatización de gh-pages
+
+Para empezar debemos instalar el módulo:
+
+`npm install gh-pages --save-dev`
+
+#### Uso básico
+
+`var ghpages = require('gh-pages');`
+
+`var path = require('path'); `
+
+`ghpages.publish(path.join(__dirname, 'dist'), function(err) { ... });`
+
+#### Publicar
+
+`ghpages.publish(basePath, callback);`
+
+`// or... `
+
+`ghpages.publish(basePath, options, callback);`
+
+Al llamar a esta función se creará un `clone `temporal del repositorio actual, también se creará una rama `gh-pages` si aún no existe, se copiará sobre todos los archivos de la ruta base o solo aquellos que coincidan con los patrones de la configuración src opcional, hacemos un `commit `de todos los cambios y posteriormente un `push `a la rama `origin `remota
 
 
 
