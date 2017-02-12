@@ -30,3 +30,15 @@ Y listo, si queremos cambiar algo de la configuración de instalación debemos i
 
 ![](/assets/gh_1.png)
 
+
+
+# Pandoc
+
+Vamos a [https://github.com/jgm/pandoc/releases/tag/1.19.2.1](https://github.com/jgm/pandoc/releases/tag/1.19.2.1) y nos descargamos la versión compatible con nuestra máquina:
+
+![](/assets/pandoc.png)
+
+Finalizamos la instalación:
+
+![](/assets/pandoc_1.png)
+
