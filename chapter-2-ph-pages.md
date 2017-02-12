@@ -30,33 +30,99 @@ Nos descargamos la versión de escritorio de GitHub compatible con nuestra máqu
 
 Una vez hacemos el `commit`, le damos al botón `sync`para que se sincronize los cambios con nuestro repositorio en la nube.
 
-
-
-
-
 ### Módulo GH - pages para autimatización de gh-pages
 
 Para empezar debemos instalar el módulo:
 
-`npm install gh-pages --save-dev`
+`npm install gh-pages --save-dev`
 
 #### Uso básico
 
-`var ghpages = require('gh-pages');`
+`var ghpages = require('gh-pages');`
 
-`var path = require('path'); `
+`var path = require('path');`
 
 `ghpages.publish(path.join(__dirname, 'dist'), function(err) { ... });`
 
 #### Publicar
 
-`ghpages.publish(basePath, callback);`
+`ghpages.publish(basePath, callback);`
 
-`// or... `
+`// or...`
 
 `ghpages.publish(basePath, options, callback);`
 
-Al llamar a esta función se creará un `clone `temporal del repositorio actual, también se creará una rama `gh-pages` si aún no existe, se copiará sobre todos los archivos de la ruta base o solo aquellos que coincidan con los patrones de la configuración src opcional, hacemos un `commit `de todos los cambios y posteriormente un `push `a la rama `origin `remota
+Al llamar a esta función se creará un `clone`temporal del repositorio actual, también se creará una rama `gh-pages` si aún no existe, se copiará sobre todos los archivos de la ruta base o solo aquellos que coincidan con los patrones de la configuración src opcional, hacemos un `commit`de todos los cambios y posteriormente un `push`a la rama `origin`remota
+
+#### basePath
+
+* Tipo: `string`
+
+El directorio base de todos los archivos de origen \(aquellos que aparecen en la propiedad `src `config\).
+
+Ejemplo del uso de `basePath:`
+
+`/**`
+
+` * Given the following directory structure:`
+
+` *`
+
+` *   build/`
+
+` *     index.html`
+
+` *     js/`
+
+` *       site.js`
+
+` *`
+
+`` * The usage below will create a `gh-pages` branch that looks like this:``
+
+` *`
+
+` *   index.html`
+
+` *   js/`
+
+` *     site.js`
+
+` *`
+
+` */`
+
+`ghpages.publish(path.join(__dirname, 'build'), callback);`
+
+El módulo cuenta con opciones adicionales de configuración. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
