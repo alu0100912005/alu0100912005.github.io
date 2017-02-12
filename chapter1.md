@@ -13,7 +13,7 @@ GitBook tiene una versión escritorio la cual es muy amigable, sencilla y tiene 
 
 ### Instalación con NPM
 
-Si queremos utilizar GitBook medianete consola, debemos tener instalado NPM y ejecutar el siguiente comando:
+Si queremos utilizar GitBook mediante consola, debemos tener instalado NPM y ejecutar el siguiente comando:
 
 `$ npm install gitbook-cli -g`
 
