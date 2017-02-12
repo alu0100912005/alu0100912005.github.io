@@ -37,6 +37,14 @@ O crear un website estático utilizamos:
 
 `$ gitbook build`
 
+### Desplegar un libro en Gitbook
+
+Hay varias maneras de desplegar un Gitbook.
+
+La primera es la sincronización del libro en Gitbook con el repositorio que queramos en Github, para sincronizarlo vamos al apartado de settings en el libro, y nos movemos a la opción de Github, ponemos el nombre de nuestro repositorio en Github y pulsamos el botón verde con la palabra Sync. Y ya se habría sincronizado.
+
+La segunda es realizar el libro de manera online y que la plataforma se encargue de hacer los commits y el push cada vez que actualices algo, por lo que Gitbook ya se encargaría de desplegar el libro
+
 ### Instalar versiones previas
 
 `gitbook-cli` hace fácil descargar e instalar otras versiones de GitBook para testear nuestro libro:
@@ -50,6 +58,4 @@ Usamos `gitbook ls-remote` para listar versiones remotas disponibles para instal
 Podemos usar la opción `--log=debug` y `--debug` para obtener mejores mensajes de error. Por ejemplo:
 
 `$ gitbook build ./ --log=debug --debug`
-
-
 
