@@ -20,13 +20,13 @@ Completamos la instalación:
 
 ![](/assets/nodejs_4.png)
 
-# GitHub 
+# GitHub
 
-Vamos a [https://desktop.github.com/ ](https://desktop.github.com/)y nos descargamos la versión compatible con nuestra máquina
+Vamos a [https://desktop.github.com/ ](https://desktop.github.com/)y nos descargamos la versión compatible con nuestra máquina:
 
+![](/assets/gh.png)
 
+Y listo, si queremos cambiar algo de la configuración de instalación debemos ir a Opciones y cambiarlo:
 
-
-
-
+![](/assets/gh_1.png)
 
